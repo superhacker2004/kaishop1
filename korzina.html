@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Корзина - Kaishop">
+    <meta name="keywords" content="корзина, заказ, покупки">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="korzina.css">
+    <title>Корзина - Kaishop</title>
+    
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <li><a href="index.html"><div class="logo">Kai<span>shop</span></div></a></li>
+                <nav>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </nav>
+                <div class="user-actions">
+                    <a href="korzina.html">Корзина</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <section class="cart-section">
+        <div class="cart-container">
+            <div class="cart-header">
+                <h1 class="cart-title">Корзина</h1>
+                <p class="cart-subtitle">Собери свою коллекцию теней перед вечным покоем</p>
+            </div>
+
+            <div class="cart-content">
+                <!-- Левая колонка - Товары -->
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="item-image">
+                            <img src="https://sun9-41.userapi.com/s/v1/if2/VYlvD2kV1xQnC6xHEPcDhaTAJ452Afa-CAJlape_UGzWMSH561a2ts-DVEoDTkxCwjblouFG8tn06V_mVkTXLHKd.jpg?quality=96&as=32x30,48x46,72x69,108x103,160x152,240x228,360x343,480x457,540x514,640x609,720x685,1080x1028,1280x1218,1440x1370,1550x1475&from=bu&u=b9SE2LHCasnJISwIWtGOMPmVZOwfJxD16oI2oxjYyyE&cs=540x0" alt="Hells Gate Hoodie">
+                        </div>
+                        <div class="item-info">
+                            <h4>Hells Gate Arrested Hoodie</h4>
+                            <p>Размер: PZDC</p>
+                            <p>Цвет: Черный</p>
+                        </div>
+                        <div class="item-price">5 000₽</div>
+                        <div class="item-quantity">
+                            <button class="quantity-btn">-</button>
+                            <input type="text" class="quantity-input" value="1" readonly>
+                            <button class="quantity-btn">+</button>
+                            <button class="remove-btn">🗑️</button>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <div class="item-image">
+                            <img src="https://static.tildacdn.com/stor3032-3338-4264-b330-633161306430/96537265.png" alt="It Will Never End">
+                        </div>
+                        <div class="item-info">
+                            <h4>It Will Never End</h4>
+                            <p>Размер: PZDC</p>
+                            <p>Цвет: Черный</p>
+                        </div>
+                        <div class="item-price">3 000₽</div>
+                        <div class="item-quantity">
+                            <button class="quantity-btn">-</button>
+                            <input type="text" class="quantity-input" value="1" readonly>
+                            <button class="quantity-btn">+</button>
+                            <button class="remove-btn">🗑️</button>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <div class="item-image">
+                            <img src="https://i.siteapi.org/UWelP5uwJzNALvW9LMAgXO5s2kQ=/fit-in/400x/center/top/filters:fill(transparent):format(png)/s2.siteapi.org/44b0dfc585a3400/img/8ed9dd47v0wscscgk8ssk0oogs0wgc" alt="Stomper Boots">
+                        </div>
+                        <div class="item-info">
+                            <h4>Stomper Boots</h4>
+                            <p>Размер: 43</p>
+                            <p>Цвет: Черный</p>
+                        </div>
+                        <div class="item-price">10 000₽</div>
+                        <div class="item-quantity">
+                            <button class="quantity-btn">-</button>
+                            <input type="text" class="quantity-input" value="1" readonly>
+                            <button class="quantity-btn">+</button>
+                            <button class="remove-btn">🗑️</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Правая колонка - Итого -->
+                <div class="cart-summary">
+                    <h3 class="summary-title">Итого</h3>
+                    
+                    <div class="summary-line">
+                        <span>Товары (3)</span>
+                        <span>18 000₽</span>
+                    </div>
+                    
+                    <div class="summary-line">
+                        <span>Доставка</span>
+                        <span>300₽</span>
+                    </div>
+
+                    <div class="promo-code">
+                        <input type="text" class="promo-input" placeholder="Промокод тьмы">
+                        <button class="apply-promo">Применить</button>
+                    </div>
+
+                    <div class="summary-total">
+                        <span>К оплате:</span>
+                        <span class="total-price">18 300₽</span>
+                    </div>
+
+                    <a href="net.html" class="checkout-btn" style="display: block; text-decoration: none; text-align: center;">
+    Перейти к оплате
+</a>
+                    <a href="index.html" class="continue-shopping">← Продолжить покупки</a>
+
+                    <div class="shipping-notice">
+                        🚚 Бесплатная доставка при заказе от 15 000₽
+                    </div>
+                </div>
+            </div>
+
+            <!-- Пустая корзина (закомментировано) -->
+            <!--
+            <div class="empty-cart">
+                <div class="empty-cart-icon">⚰️</div>
+                <h3>Корзина пуста</h3>
+                <p>Ваша корзина ждет свои теней...</p>
+                <a href="index.html" class="btn">Начать покупки</a>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Магазин</h3>
+                    <ul>
+                        <li><a href="onas.html">О нас</a></li>
+                        <li><a href="dostavka1.html">Доставка и оплата</a></li>
+                        <li><a href="vozvrat.html">Возврат и обмен</a></li>
+                        <li><a href="kontakti.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li>Телефон: +7 (951) 703-32-30</li>
+                        <li>Email: KAISHOP@mail.ru</li>
+                        <li>Адрес: г. Москва, ул. Шоссейная, д. 12. к2.</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="https://vk.com/xxkaixx">VK</a>
+                        <a href="https://t.me/xxkaixx11">TG</a>
+                        <a href="https://t.me/+Fnojny3BR4E2MDFi">TGK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 KAISHOP - магазин неформальной одежды.
+            </div>
+        </div>
+    </footer>
+
+    
+    </script>
+</body>
+</html>
